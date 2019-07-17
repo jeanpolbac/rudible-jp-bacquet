@@ -81,3 +81,6 @@ end
 
 # include SimpleForm
 gem 'simple_form'
+
+# include Devise
+gem 'devise'
