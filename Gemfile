@@ -85,3 +85,9 @@ gem 'devise'
 
 # include CarrierWave
 gem 'carrierwave', '>= 2.0.0.rc', '< 3.0'
+
+# include Figaro
+gem 'figaro'
+
+# include Fog
+gem 'fog-aws'
