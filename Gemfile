@@ -40,7 +40,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 3.8'
-  gem "factory_bot_rails"
+  gem 'factory_bot_rails'
 end
 
 group :development do
@@ -73,9 +73,8 @@ gem 'popper_js', '~> 1.14.5'
 # include Bootstrap
 gem 'bootstrap', '~> 4.3.1' 
 
-source 'https://rails-assets.org' do
-  gem 'rails-assets-tether', '>= 1.3.3'
-end
+# Include tether
+gem 'rails-assets-tether', source: 'https://rails-assets.org'
 
 # include SimpleForm
 gem 'simple_form'
@@ -91,3 +90,6 @@ gem 'figaro'
 
 # include Fog
 gem 'fog-aws'
+
+# Update Bundler
+gem 'install bundler'
