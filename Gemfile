@@ -73,8 +73,9 @@ gem 'popper_js', '~> 1.14.5'
 # include Bootstrap
 gem 'bootstrap', '~> 4.3.1' 
 
-# Include tether
-gem 'rails-assets-tether', source: 'https://rails-assets.org'
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
 
 # include SimpleForm
 gem 'simple_form'
