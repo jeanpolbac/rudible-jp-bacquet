@@ -90,6 +90,3 @@ gem 'figaro'
 
 # include Fog
 gem 'fog-aws'
-
-# Update Bundler
-gem 'install bundler'
