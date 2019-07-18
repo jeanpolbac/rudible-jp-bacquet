@@ -7,8 +7,17 @@ body {
   
 }
 
-.clear {
-  clear:both;
+a:link {
+  color: #125688;
+}
+
+a:hover {
+  color: #125688;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #125688;
 }
 .top-nav {
   background-color: white;
@@ -94,6 +103,7 @@ input {
   font-size: 16px;
   margin-right: 20px;
   margin-left: auto;
+  float: right;
 }
 
 .comments {
