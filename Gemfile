@@ -82,3 +82,6 @@ gem 'simple_form'
 
 # include Devise
 gem 'devise'
+
+# include CarrierWave
+gem 'carrierwave', '>= 2.0.0.rc', '< 3.0'
