@@ -1,24 +1,29 @@
-# README
+# Rudible - Test Driven Development
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![Image of Rudible](app/assets/images/rudible-preview.png)
 
-Things you may want to cover:
+An Instagram clone that was built using industry-standard, test-driven development following numerous red/green/refactor cycles.
 
-* Ruby version
+Preview:
+https://rudi-jp-bacquet.herokuapp.com
 
-* System dependencies
+### Prerequisites
 
-* Configuration
+Ruby on Rails is required to be installed
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
+## Deployment
 
-* Services (job queues, cache servers, search engines, etc.)
+Use Git and GitHub for version control. User Heroku for deploying application.
 
-* Deployment instructions
+## Built With
 
-* ...
+* [Ruby on Rails](https://guides.rubyonrails.org/) - The web framework used
+
+
+
+## Authors
+
+
+* **Jean-Pol Bacquet** - *Assignment from UCF Web Boot Camp* - [Rudible - Test Driven Development](https://github.com/jeanpolbac/rudible-jp-bacquet
