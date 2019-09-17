@@ -6,10 +6,9 @@ An Instagram clone that was built using industry-standard, test-driven developme
 Preview:
 https://rudi-jp-bacquet.herokuapp.com
 
-
 ## Features
-* [Ruby on Rails](https://guides.rubyonrails.org/) - The web framework used
-* Mobile-responsive
+* [Ruby on Rails](https://guides.rubyonrails.org/) - The web framework used.
+* Mobile-responsive.
 * Features a general feed of all pictures, as well as user-specific feeds.
 * Users may edi and/or delete their posts, comments, and responses.
 
