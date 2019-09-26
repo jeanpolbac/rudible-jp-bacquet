@@ -1,0 +1,4 @@
+#!/bin/bash
+killall node
+lt --port 8080 &
+rails s -b 0.0.0.0 -p 8080
